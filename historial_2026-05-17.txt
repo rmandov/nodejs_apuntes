@@ -1,0 +1,41 @@
+    1  clear
+    2  ls
+    3  chsh -s $(which zsh)
+    4  clear
+    5  bahs
+    6  bash
+    7  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"
+    8  pw
+    9  pwd
+   10  cd
+   11  vim .zshrc
+   12  source .zshrc
+   13  clear
+   14  ls
+   15  quit
+   16  clear
+   17  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+   18  export NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion\n\nclear
+   19  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+   20  export NVM_DIR="$HOME/.nvm"\n[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm\n[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+   21  source ~/.zshrc
+   22  nvm -v
+   23  clear
+   24  nvm list
+   25  nvm ls
+   26  nvm install 23
+   27  nvm ls
+   28  clear
+   29  nvm install 22
+   30  nvm ls
+   31  nvm use 22
+   32  node -v
+   33  nvm install 26
+   34  nvm install 24
+   35  nvm --help
+   36  nvm ls
+   37  nvm uninstall 22
+   38  nvm uninstall 23
+   39  nvm list
+   40  nvm use 26
+   41  history
